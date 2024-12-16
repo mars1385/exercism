@@ -1,14 +1,14 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/mars1385/exercism/tree"
+	"github.com/mars1385/exercism/robotname"
 )
 
 func main() {
 
-	fmt.Println(tree.Build([]tree.Record{
-		{ID: 0, Parent: 1},
-	}))
+	for i := 0; i < 26*26*10*10*10; i++ {
+		d := robotname.Robot{}
+		d.Name()
+	}
+
 }
